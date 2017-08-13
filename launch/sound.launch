@@ -1,0 +1,9 @@
+<!-- 
+This launch file runs the sound_play node and a test script that excersises
+most of its functionality.
+-->
+
+<launch>
+  <node name="soundplay_node" pkg="sound_play" type="soundplay_node.py"/>
+  <node name="light_room_sounds" pkg="kinect_light_room" type="sound_node"/>
+</launch>

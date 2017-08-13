@@ -1,0 +1,8 @@
+<launch>
+  <include file="$(find kinect_light_room)/launch/arduino.launch"/>
+  <include file="$(find kinect_light_room)/launch/flash_light_controller.launch"/>
+  <include file="$(find kinect_light_room)/launch/openni_tracker_config_screen.launch"/>
+  <include file="$(find kinect_light_room)/launch/sound.launch"/>
+  <!--include file="$(find kinect_light_room)/launch/rviz.launch"/>
+</launch>
+

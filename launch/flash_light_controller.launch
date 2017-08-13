@@ -1,0 +1,5 @@
+<launch>
+  <node name="flash_light_controller_and_pub" pkg="kinect_light_room" type="kinect_light_room_node"/>
+  <node pkg="tf" type="static_transform_publisher" name="room_kinect_static_publisher" args="-1.88 1.17 2.8 0.784 0 2.08 /room_link /openni_depth_frame 100"/>
+</launch>
+
